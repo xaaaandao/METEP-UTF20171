@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.7)  11 JUN 2017 22:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.7)  12 JUN 2017 02:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**artigo.tex
+**artigo
 (./artigo.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 6 language(s) loaded.
@@ -372,27 +372,131 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 11.
 
-(./artigo.bbl) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(./artigo.aux) ) 
+LaTeX Warning: Citation `Bilge:2012' on page 1 undefined on input line 17.
+
+! Undefined control sequence.
+l.17 ...ilge:2012}. Alguns tipos de ataques \texit
+                                                  {zero-day}, permanecem des...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Bilge:2012' on page 1 undefined on input line 18.
+
+
+LaTeX Warning: Citation `Bilge:2012' on page 1 undefined on input line 19.
+
+
+LaTeX Warning: Citation `Bilge:2012' on page 1 undefined on input line 21.
+
+
+LaTeX Warning: Citation `Bilge:2012' on page 1 undefined on input line 22.
+
+
+LaTeX Warning: Citation `Bilge:2012' on page 1 undefined on input line 24.
+
+
+LaTeX Warning: Citation `Bilge:2012' on page 1 undefined on input line 25.
+
+
+LaTeX Warning: Citation `Bilge:2012' on page 1 undefined on input line 27.
+
+! Undefined control sequence.
+l.28 disso, os fornecedores de \texit
+                                     {software} dão preferência de corrigi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Bilge:2012' on page 1 undefined on input line 29.
+
+
+LaTeX Warning: Citation `Last:2016' on page 1 undefined on input line 32.
+
+
+LaTeX Warning: Citation `Last:2016' on page 1 undefined on input line 34.
+
+
+LaTeX Warning: Citation `Last:2016' on page 1 undefined on input line 35.
+
+! Undefined control sequence.
+l.37 Os ataques de \texit
+                         {zero-day} contra aplicações Web aumentaram ~\cit...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Kumar:2016' on page 1 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Kumar:2016' on page 1 undefined on input line 40.
+
+
+LaTeX Warning: Citation `Kumar:2016' on page 1 undefined on input line 42.
+
+
+LaTeX Warning: Citation `Kumar:2016' on page 1 undefined on input line 43.
+
+! Undefined control sequence.
+l.44 ~\texit
+            {software} ou sites ~\cite{Kumar:2016}. As maneira para evitar o...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Kumar:2016' on page 1 undefined on input line 44.
+
+! Undefined control sequence.
+l.45 seria utilizando \texit
+                            {Host Intrusion Protected Software} (HIPS), em q...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Kumar:2016' on page 1 undefined on input line 49.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./artigo.bbl) [2]
+(./artigo.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 983 strings out of 494884
- 10552 string characters out of 6179237
- 69342 words of memory out of 5000000
- 4335 multiletter control sequences out of 15000+600000
- 7626 words of font info for 27 fonts, out of 8000000 for 9000
+ 990 strings out of 494884
+ 10624 string characters out of 6179237
+ 71342 words of memory out of 5000000
+ 4341 multiletter control sequences out of 15000+600000
+ 7934 words of font info for 28 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
- 24i,6n,23p,162b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on artigo.pdf (1 page, 68197 bytes).
+ 24i,6n,23p,158b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on artigo.pdf (2 pages, 80815 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 35 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

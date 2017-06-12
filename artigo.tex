@@ -11,22 +11,71 @@
 \maketitle 
 
 \section{Introdução}
-Atualmente, os sistemas estão migrando para Web ~\cite{Cimapa2010} e são implementados com \textit{bugs}
- de software críticos que podem ser explorados de forma maliciosa ~\cite{Vieira2009}. Com isso as 
- aplicações Web estão sujeitos a ataque de hackers, tentando obter acesso não autorizado ou acessar 
- informações privadas ~\cite{Vieira2009}. Uma das técnicas de ataque mais populares é a de injeção SQL 
- em que se as consultas não forem validados, os atacantes podem ter acessos a dados não autorizados, 
- inserir e excluir dados, e até páginas de erro podem revelar qual banco de dados está sendo utilizado 
- e as tabelas presentes~\cite{Cimapa2010}. Para prevenir ataques desse tipo, existem técnicas que 
- obrigam o cliente a inserir dados corretos e que podem ser descobertos quando forem inseridos  valores 
- ilegais ~\cite{Vieira2009}. Além do que, desenvolvedores podem aplicar melhores práticas de codificação 
- ou executar testes de penetração para prevenir ataques em aplicações Web ~\cite{Vieira2009}. 
- Necessariamente, também existem alguns testes que podem ser feitos como o teste da caixa branca em que 
- se analisa códigos, porém se feito de forma exaustiva pode ser díficil e não encontrar todas as falhas 
- ~\cite{Vieira2009}. Já no teste da caixa preta são testes de penetração, em que o scanner pode não 
- reconhecer os componentes internos da aplicação Web. Porém, queremos prevenir possíveis e detectar 
- possíveis ataques ~\cite{Vieira2009}.
+O ataque de \textit{zero-day} é um ataque cibernético que explora uma vulnerabilidade que 
+não foi divulgada publicamente, e com isso não há defesa contra esse ataque, consequentemente não
+o \textit{software} não pode ser corrigido e os antivírus não detectam devido a não ter assinatura
+~\cite{Bilge:2012}. Alguns tipos de ataques \texit{zero-day}, permanecem desconhecidos até por 2,5 
+anos~\cite{Bilge:2012}. Quando as vulnerabilidades são descobertas ou são descritas em aviso 
+público, os fornecedores de \textit{software} lançam atualizações ~\cite{Bilge:2012}. Além do que, 
+um dos problemas é que depois de se lançados as atualizações, os usuários atrasam suas atualizações
+~\cite{Bilge:2012}. O preço das bulnerabilidades como a de plataformas, (Windows, iOS, principais 
+navegadores) pode execeder mais de 100.000 dólares, dependendo da complexidade ~\cite{Bilge:2012}.
+Atualmente, as explorações são incorporadas em arquivos não executáveis, como *.pdf, *.doc, *.xlsx
+~\cite{Bilge:2012}. Usuários que utilizam o antivírus podem ter mais cuidados com a segurança de 
+seus computadores, e podem ser menos expostos aos ataques ~\cite{Bilge:2012}. Ataques \textit{
+zero-day} são ataques chamados de ataques específicos já que que visam um número limitado de 
+organizções que possuem informações confidenciais que podem ser roubadas ~\cite{Bilge:2012}. Além 
+disso, os fornecedores de \texit{software} dão preferência de corrigir vulnerabilidades que foram 
+divulgadas ou estão prestes a declarar ~\cite{Bilge:2012}.
 
+Os defensores da redes estão sempre a dois passos de trás dos invasores, já que devem se defender 
+de falhas que não foram descobertas ou foram descobertas por atacantes ~\cite{Last:2016}. A única 
+vantagem é que os defensores sabem a localização provável e gravidade dessse ataque 
+~\cite{Last:2016}. Uma maneira de se prevenir seria implementar sensores ou defesas cibernéticas, 
+como \textit{firewall} ~\cite{Last:2016}.
+
+Os ataques de \texit{zero-day} contra aplicações Web aumentaram ~\cite{Kumar:2016}. Além disso, 
+existem testes como o de \textit{Web Application Penetration Testing} (WAPT), em que se as suas 
+organizações não testam e não protegem de maneira adequadamente, terá seu aplicativo comprometido, 
+ter dados roubados e danificar o desempenho da sua aplicação ~\cite{Kumar:2016}. È díficil de 
+prevenir, porque a informação só estará disponível quando o  ataque tiver sido concluído 
+~\cite{Kumar:2016}. Essas vulnerabilidades são muito desejadas por agências convernamentais, 
+cibercriminosos e empresas de software ~\cite{Kumar:2016}. Essas falhas podem ser em
+~\texit{software} ou sites ~\cite{Kumar:2016}. As maneira para evitar os ataques \textit{zero-day}
+seria utilizando \texit{Host Intrusion Protected Software} (HIPS), em que não se depende de 
+assinaturas, já que há um monitoramente das atividades da máquina. Usar um bom antivírus, 
+protegendo de ataques conhecidos e desconhecidos. Atualizar suas aplicações, em que se houver 
+notificação de atualização de \textit{software} atualize. Usar navegadores somente atualizados já 
+que todos os navegadores empurram atualizações periódicas ~\cite{Kumar:2016}.
+
+O crime cibernético é uma forma de crime que inclui crimes que são cometidos através do uso da
+Internet ou de outras redes informáticas ~\cite{Armin:2015}. O aumento da dissemniação de crimes
+por computador deve se a um \textit{Return On Investement} (ROI) derivado desse tipo de atividade 
+criminosa ~\cite{Armin:2015}. As pessoas envolvidas em cibercrimes não entendem as ações ilegais   
+realizadas com o auxílio de equipamentos de TI, e os mesmos se sentem que estão em um ambiente 
+seguro com regras soltas ~\cite{Armin:2015}. As informaçẽos pessoais e corporativas representam um 
+grande valor para os criminosos ~\cite{Armin:2015}. Acredita-se que o período em que provavelmente 
+ocorreram as primeiras vulnerabilidades de \textit{zero-day}aconteceram nos anos 80 ~\cite{
+Armin:2015}. Para atacar um sistema, é essencial estudar, compreender sua estrutura, identificar o 
+tipo de proteção instalada e o sistema operacional, par aassim identifcar as vulnerabilidades
+~\cite{Armin:2015}. Além disso, os valores dessas vulnerabilidades elas mudam no qual o no segundo 
+ela vale um quarto do que do que \textit{zero-day}, e dez dias depois o valor dessa 
+vulnerabilidade 1/1000 ~\cite{Armin:2015}. Existem fábricas de \texit{malware}, na qual empresas 
+criam \texit{malwares} sob demanda em troca de uma taxa ~\cite{Armin:2015}. Existem três tipos de 
+mercados. O mercado branco é um mercado legal que não está escondido, em que as empresas de 
+tecnologia pagam aos pesquisasdores dispostos a vender uma vulnerabilidade de \texit{zero-day} que 
+descobriram. Empresas como o Google lançaram um programa para compra de vulnerabilidades de seus 
+produtos. Já o mercado negro, é um mercado de bens e serviços ilegais, onde as operações ocorrem  
+através de contatos e vendas on-line, e fisicamente através de reuniões entre criminosos que 
+compram. As vulnerabilidades ~\textit{zero-day} são vendidas no mercado negro em uam parte mais 
+oculta. Um exemplo de um mercado negro é o \textit{Russian Business Network} sediada em São 
+Petersburgo, na Rússia. Por fim, o último mercado é o mercado cinza ou mercado governamental. O 
+governo americano comprar vulnerabilidades de \textit{zero-day} não para se proteger, mas sim para 
+atacar. Na China, os alunos talentosos em ciência da computação e matemática são ensinados a 
+espionagem industrial contra governos estrangeiros. Já na Índia, existe uma organização chamada 
+\texit{National Technical Research Organization}, que uma lei autoriza, em caso de ataque, 
+retaliar usando técnicas de \texit{hacking}. Além do que, o governo incentiva os jovens talentosos 
+a entrar em um programa para proteger o país ~\cite{Armin:2015}.
 
 \bibliographystyle{unsrt}
 \bibliography{artigo}
