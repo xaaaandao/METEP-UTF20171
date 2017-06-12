@@ -1,3 +1,17 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{Cimapa2010}
+Angelo Ciampa, Corrado~Aaron Visaggio, and Massimiliano~Di Penta.
+\newblock A heuristic-based approach for detecting {SQL}-injection
+  vulnerabilities in web applications.
+\newblock In {\em 2010 {ICSE} Workshop on Software Engineering for Secure
+  Systems - {SESS}}. {ACM}, 2010.
+
+\bibitem{Vieira2009}
+Marco Vieira, Nuno Antunes, and Henrique Madeira.
+\newblock Using web security scanners to detect vulnerabilities in web
+  services.
+\newblock In {\em 2009 {IEEE}/{IFIP} International Conference on Dependable
+  Systems {\&} Networks}. {IEEE}, jun 2009.
 
 \end{thebibliography}
