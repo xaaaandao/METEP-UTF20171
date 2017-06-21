@@ -4,99 +4,61 @@
 
 \begin{document}
 
-\title{Não sei}
+\title{Prevenção de ataques \textit{zero-day} por meio de vulnerabilidades divulgadas}
 \author{Alexandre Yuji Kajihara}
 \date{2017}
 
 \maketitle 
 
 \section{Introdução}
-O crime cibernético é uma forma de crime que inclui crimes que são cometidos através do uso da Internet ou de outras redes 
-informáticas ~\cite{Armin:2015}. O aumento da disseminação de crimes por computador deve se a um \textit{Return On Investement}
-(ROI) derivado desse tipo de atividade criminosa ~\cite{Armin:2015}. Um dos tipos de ataque é o ataque de \textit{zero-day} é um 
-ataque cibernético que explora uma vulnerabilidade que não foi divulgada publicamente ~\cite{Bilge:2012}. Essas vulnerabilidades 
-permanecem desconhecidas até por 2.5 anos ~\cite{Bilge:2012}. Enquanto a vulnerabilidade permanece desconhecida, o software obtido 
-não pode ser corrigido e os produtos antivírus não conseguem detectar o ataque através da verificação baseada em assinatura 
-~\cite{Bilge:2012}. A desvantagem dos defensores, é não saber qual falhas foram descobertas e a sua vantagem seria saber a 
-localização provável e gravidade desse ataque ~\cite{Last:2016}. Uma maneira de prevenção é a implementação de sensores ou defesas 
-cibernéticas, \textit{firewall} ~\cite{Last:2016}. Outras maneiras de prevenção seria por meio de \texit{Host Intrusion Protected 
-Software} (HIPS), em que não se depende de assinaturas, já que há um monitoramente das atividades da máquina, usar um bom antivírus  
-protegendo de ataques conhecidos e desconhecidos e atualizar suas aplicações sempre que houver notificação de atualização de
-\textit{software} ~\cite{Kumar:2016}. Como foi dito anteriormente, o aumento de crime cibernéticos se deve ao retorno financeiro. Existem vulnerabilidades que podem valer mais de 100.000 dólares, dependendo da sua complexidade
+O crime cibernético é uma forma de crime que inclui crimes que são cometidos através do uso da Internet ou de outras redes de
+informáticas ~\cite{Fotiet:2015}. O aumento da disseminação de crimes por computador deve se a \textit{Return On Investement}
+(ROI) derivado desse tipo de atividade criminosa ~\cite{Fotiet:2015}. Existem vulnerabilidades que podem valer mais de 100.000 dólares, 
+dependendo da sua complexidade ~\cite{Bilge:2012}, um exemplo que podemos citar é as vulnerabilidades do tipo \textit{zero-day}, que 
+iremos explicar o que elas são logo abaixo, em que devido a esse retorno de investimento os valores variam, na qual no segundo dia ela 
+pode valer um quarto do que valia no \textit{zero-day} e no décimo dia o valor dela vale 1/1000 ~\cite{Fotiet:2015}. Além do que, essas 
+vulnerabilidades são muito desejadas por agências governamentais, cibercriminosos e empresas de software ~\cite{Kumar:2016}.
 
-Quando as vulnerabilidades são descobertas ou são descritas em aviso 
-público, os fornecedores de \textit{software} lançam atualizações ~\cite{Bilge:2012}. Além do que, 
-um dos problemas é que depois de se lançados as atualizações, os usuários atrasam suas atualizações
-~\cite{Bilge:2012}. O preço das vulnerabilidades como a de plataformas, (Windows, iOS, principais 
-navegadores) pode execeder mais de 100.000 dólares, dependendo da complexidade ~\cite{Bilge:2012}.
-Atualmente, as explorações são incorporadas em arquivos não executáveis, como *.pdf, *.doc, *.xlsx
-~\cite{Bilge:2012}. Usuários que utilizam o antivírus podem ter mais cuidados com a segurança de 
-seus computadores, e podem ser menos expostos aos ataques ~\cite{Bilge:2012}. Ataques \textit{
-zero-day} são ataques chamados de ataques específicos já que que visam um número limitado de 
-organizções que possuem informações confidenciais que podem ser roubadas ~\cite{Bilge:2012}. Além 
-disso, os fornecedores de \texit{software} dão preferência de corrigir vulnerabilidades que foram 
-divulgadas ou estão prestes a declarar ~\cite{Bilge:2012}.
+Um dos tipos de ataque existente é o ataque de \textit{zero-day}, em que acredita-se que o período em que provavelemnte ocorreram as 
+primeiras vulnerabilidades de \textit{zero-day} aconteceram nos anos 80 ~\cite{Fotiet:2015}. Esse ataque cibernético que explora uma 
+vulnerabilidade que não foi divulgada publicamente, e esse ataques visam um número de organizações que possuem informações confidenciais 
+que podem ser roubadas ~\cite{Bilge:2012}. Essas vulnerabilidades permanecem desconhecidas até por 2.5 anos ~\cite{Bilge:2012}. Enquanto 
+a vulnerabilidade permanece desconhecida, o software obtido não pode ser corrigido e os produtos antivírus não conseguem detectar o 
+ataque através da verificação baseada em assinatura ~\cite{Bilge:2012}. 
 
+Uma maneira de prevenção é a implementação de sensores ou defesas cibernéticas, \textit{firewall} ~\cite{Last:2016}. Outras maneiras de 
+prevenção seria por meio de \textit{Host Intrusion Protected Software} (HIPS), em que não se depende de assinaturas, já que há um 
+monitoramente das atividades da máquina, usar um bom antivírus  protegendo de ataques conhecidos e desconhecidos e atualizar suas 
+aplicações sempre que houver notificação de atualização de \textit{software} ~\cite{Kumar:2016}. Usuários que utilizam o antivírus podem 
+ter mais cuidados com a segurança de seus computadores, e podem ser menos expostos aos ataques ~\cite{Bilge:2012}. Existem testes de 
+penetração como o \textit{Web Application Penetration Testing} (WAPT)~\cite{Kumar:2016}. Apesar de todas essas maneiras de prevenir é 
+díficil, porque a informação só estará disponível quando o ataque tiver sido concluído ~\cite{Kumar:2016}. Além disso, os fornecedores 
+de \textit{software} dão preferência de corrigir vulnerabilidades que foram divulgadas ou estão prestes a declarar ~\cite{Bilge:2012}.
 
-Os ataques de \texit{zero-day} contra aplicações Web aumentaram ~\cite{Kumar:2016}. Além disso, 
-existem testes como o de \textit{Web Application Penetration Testing} (WAPT), em que se as suas 
-organizações não testam e não protegem de maneira adequadamente, terá seu aplicativo comprometido, 
-ter dados roubados e danificar o desempenho da sua aplicação ~\cite{Kumar:2016}. È díficil de 
-prevenir, porque a informação só estará disponível quando o  ataque tiver sido concluído 
-~\cite{Kumar:2016}. Essas vulnerabilidades são muito desejadas por agências convernamentais, 
-cibercriminosos e empresas de software ~\cite{Kumar:2016}. Essas falhas podem ser em
-~\texit{software} ou sites ~\cite{Kumar:2016}. As maneira para evitar os ataques \textit{zero-day}
-seria utilizando.
+Como foi dito anteriormente, essas vulnerabilidades tem interessado pessoas, governos e empresas de software. No caso, dos ataques do 
+tipo \textit{zero-day} existem três tipos de mercados que vendem vulnerabilidades de \textit{zero-day}, que no caso são o mercado negro, 
+cinza e branco. O mercado branco é um mercado legal que não está escondido, em que as empresas de tecnologia pagam aos pesquisasdores 
+dispostos a vender uma vulnerabilidade de \textit{zero-day} que descobriram. Empresas como o Google lançaram um programa para compra de 
+vulnerabilidades de seus produtos ~\cite{Fotiet:2015}. 
 
-As pessoas envolvidas em cibercrimes não entendem as ações ilegais  
-realizadas com o auxílio de equipamentos de TI, e os mesmos se sentem que estão em um ambiente 
-seguro com regras soltas ~\cite{Armin:2015}. As informaçẽos pessoais e corporativas representam um 
-grande valor para os criminosos ~\cite{Armin:2015}. Acredita-se que o período em que provavelmente 
-ocorreram as primeiras vulnerabilidades de \textit{zero-day}aconteceram nos anos 80 ~\cite{
-Armin:2015}. Para atacar um sistema, é essencial estudar, compreender sua estrutura, identificar o 
-tipo de proteção instalada e o sistema operacional, par aassim identifcar as vulnerabilidades
-~\cite{Armin:2015}. Além disso, os valores dessas vulnerabilidades elas mudam no qual o no segundo 
-ela vale um quarto do que do que \textit{zero-day}, e dez dias depois o valor dessa 
-vulnerabilidade 1/1000 ~\cite{Armin:2015}. Existem fábricas de \texit{malware}, na qual empresas 
-criam \texit{malwares} sob demanda em troca de uma taxa ~\cite{Armin:2015}. Existem três tipos de 
-mercados. O mercado branco é um mercado legal que não está escondido, em que as empresas de 
-tecnologia pagam aos pesquisasdores dispostos a vender uma vulnerabilidade de \texit{zero-day} que 
-descobriram. Empresas como o Google lançaram um programa para compra de vulnerabilidades de seus 
-produtos. Já o mercado negro, é um mercado de bens e serviços ilegais, onde as operações ocorrem  
-através de contatos e vendas on-line, e fisicamente através de reuniões entre criminosos que 
-compram. As vulnerabilidades ~\textit{zero-day} são vendidas no mercado negro em uam parte mais 
-oculta. Um exemplo de um mercado negro é o \textit{Russian Business Network} sediada em São 
-Petersburgo, na Rússia. Por fim, o último mercado é o mercado cinza ou mercado governamental. O 
-governo americano comprar vulnerabilidades de \textit{zero-day} não para se proteger, mas sim para 
-atacar. Na China, os alunos talentosos em ciência da computação e matemática são ensinados a 
-espionagem industrial contra governos estrangeiros. Já na Índia, existe uma organização chamada 
-\texit{National Technical Research Organization}, que uma lei autoriza, em caso de ataque, 
-retaliar usando técnicas de \texit{hacking}. Além do que, o governo incentiva os jovens talentosos 
-a entrar em um programa para proteger o país ~\cite{Armin:2015}.
+O mercado negro, é um mercado de bens e serviços ilegais, onde as operações ocorrem através de contatos e vendas on-line, e fisicamente 
+através de reuniões entre criminosos que compram. As vulnerabilidades ~\textit{zero-day} são vendidas no mercado negro em uam parte mais 
+oculta. Um exemplo de um mercado negro é o \textit{Russian Business Network} sediada em São Petersburgo, na Rússia. 
 
-A atividade de negociar explorações possui uma longa história, em que os criminosos utilizam cada vez mais disso
-para próprio benefício econômico ~\cite{Egelman:2013}. Há prejuízos para a sociedade nos mercados de \textit{zero-day},
-pois motivam os criminosos venda privada dessas falhas ~\cite{Egelman:2013}. Além disso, existem os \textit{Zero-Day 
-Market} em que é a venda de detalhes de exploração ou \texit{bug} e o \texit{Vulnerability Rewards Program} esao 
-ganhando muita popularidade, em que  é um programa pelo qual um fornecedor de software paga um pesquisador divulgar 
-detalhes de um software relacionado à segurança, em que existem casos em que esses pesquisadores são contratados pelos 
-fornecedores ~\cite{Egelman:2013}.Além disso, existem mercado de vulnerabilidades, em que os \textit{Hackers} são pagos 
-pela sua fama e notoriedade ~\cite{Egelman:2013}. Esses mercados criam, incentivos atrativos para que pessoas mais 
-inteligentes passem tempo procurando vulnerabilidades, já que quanto mais você olha, mais \textit{bugs} você encontrará 
-~\cite{Egelman:2013}. Além do que, \textit{software} que são código aberto, ou de manutenção comunitária não existem 
-fornecedores que estão dispostos a pagar pelas vulnerabilidades ~\cite{Egelman:2013}. Existem vendedores de 
-vulnerabilidades que vendem para prejudicar um fabricante do software ~\cite{Egelman:2013}.
+O último mercado é o mercado cinza ou mercado governamental. O governo americano compra vulnerabilidades de \textit{zero-day} não para se 
+proteger, mas sim para atacar. Na China, os alunos talentosos em ciência da computação e matemática são ensinados a espionagem industrial 
+contra governos estrangeiros. Já na Índia, existe uma organização chamada \textit{National Technical Research Organization}, que uma lei 
+autoriza, em caso de ataque, permite retaliar usando técnicas de \textit{hacking}. Além do que, o governo incentiva os jovens talentosos 
+a entrar em um programa para proteger o país ~\cite{Fotiet:2015}.
 
 
 
-%pesquisa sobre o WINE (World Intelligence Network Environment) OSVDB
+% pesquisa sobre o WINE (World Intelligence Network Environment) OSVDB
 % colocar mais geral o objetivo com relação as fontes
 % colocar recursos necessários
 % arrumar a justificativa
-% colocar e dividir os paragráfos 
 
 \bibliographystyle{unsrt}
 \bibliography{artigo}
-
 
 \end{document}

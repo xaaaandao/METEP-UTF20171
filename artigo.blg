@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: artigo.aux
 The style file: unsrt.bst
 Database file #1: artigo.bib
-You've used 2 entries,
+You've used 4 entries,
             1791 wiz_defined-function locations,
-            458 strings with 3997 characters,
-and the built_in function-call counts, 434 in all, are:
-= -- 34
-> -- 22
+            473 strings with 4223 characters,
+and the built_in function-call counts, 578 in all, are:
+= -- 50
+> -- 18
 < -- 0
 + -- 8
-- -- 6
-* -- 24
-:= -- 75
-add.period$ -- 8
-call.type$ -- 2
+- -- 4
+* -- 20
+:= -- 103
+add.period$ -- 12
+call.type$ -- 4
 change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 24
-empty$ -- 51
-format.name$ -- 6
-if$ -- 101
+cite$ -- 4
+duplicate$ -- 34
+empty$ -- 69
+format.name$ -- 4
+if$ -- 131
 int.to.chr$ -- 0
-int.to.str$ -- 2
+int.to.str$ -- 4
 missing$ -- 2
-newline$ -- 13
-num.names$ -- 2
+newline$ -- 21
+num.names$ -- 6
 pop$ -- 12
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 4
+skip$ -- 12
 stack$ -- 0
 substring$ -- 0
-swap$ -- 4
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 2
-width$ -- 3
-write$ -- 24
+while$ -- 4
+width$ -- 5
+write$ -- 42

@@ -1,5 +1,5 @@
 all:
-	pdflatex -synctex=1 -interaction=nonstopmode artigo
+	pdflatex -synctex=1 -interaction=nonstopmode artigo.tex
 	bibtex artigo
 	pdflatex artigo.tex
 	pdflatex artigo.tex
