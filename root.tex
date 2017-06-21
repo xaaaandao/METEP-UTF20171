@@ -1,0 +1,80 @@
+\documentclass[brazil, 12pt]{article}
+
+\usepackage{sbc-template}
+
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+ 
+\usepackage{multirow}
+
+\usepackage{graphicx}
+\usepackage[extendedchars,encoding,multidot,space,filenameencoding=utf8]{grffile}
+
+\usepackage{url}
+\usepackage{hyphenat}
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\RequirePackage[capitalise]{cleveref}
+\crefname{chapter}{Cap\'itulo}{Cap\'itulos}
+\Crefname{chapter}{Cap\'itulo}{Cap\'itulos}
+\crefname{section}{Se\c{c}\~ao}{Se\c{c}\~oes}
+\Crefname{section}{Se\c{c}\~ao}{Se\c{c}\~oes}
+\crefname{line}{Linha}{Linhas}
+\Crefname{line}{Linha}{Linhas}
+\crefname{table}{Tabela}{Tabelas}
+\Crefname{table}{Tabela}{Tabelas}
+\crefname{figure}{Figura}{Figuras}
+\crefname{figure}{Figura}{Figuras}
+\Crefname{figure}{Figura}{Figuras}
+\crefname{subfigure}{Figura}{Figuras}
+\Crefname{subfigure}{Figura}{Figuras}
+\crefname{equation}{Equa\c{c}\~ao}{Equa\c{c}\~oes}
+\Crefname{equation}{Equa\c{c}\~ao}{Equa\c{c}\~oes}
+\crefname{listing}{C\'odigo-fonte}{C\'odigos-fonte}
+\Crefname{listing}{C\'odigo-fonte}{C\'odigos-fonte}
+\crefname{lstlisting}{C\'odigo-fonte}{C\'odigos-fonte}
+\Crefname{lstlisting}{C\'odigo-fonte}{C\'odigos-fonte}
+\crefname{lstnumber}{Linha}{Linhas}
+\Crefname{lstnumber}{Linha}{Linhas}
+\crefrangelabelformat{chapter}{#3#1#4~a~#5#2#6}
+\crefrangelabelformat{section}{#3#1#4~a~#5#2#6}
+\newcommand{\crefrangeconjunction}{ e }
+\newcommand{\crefpairconjunction}{ e }
+\newcommand{\crefmiddleconjunction}{, }
+\newcommand{\creflastconjunction}{ e }
+\crefmultiformat{ type }{ first }{ second }{ middle }{ last }
+\Crefmultiformat{ type }{ first }{ second }{ middle }{ last }
+\crefrangemultiformat{ type }{ first }{ second }{ middle }{ last }
+\Crefrangemultiformat{ type }{ first }{ second }{ middle }{ last }
+
+
+\sloppy
+
+\title{Prevenção de ataques \textit{zero-day} por meio de vulnerabilidades divulgadas}
+
+% author names and affiliations
+% use a multiple column layout for up to three different affiliations
+\author{Alexandre Yuji Kajihara}
+
+\address{
+	\email{alexandre.ykz@gmail.com}
+}
+
+
+\begin{document}
+
+\maketitle
+
+\input{resumos}
+
+\input{introducao}
+
+\bibliographystyle{sbc}
+\bibliography{root}
+
+
+\end{document}
+
+
