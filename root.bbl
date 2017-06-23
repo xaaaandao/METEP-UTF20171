@@ -21,4 +21,17 @@ Pratap~Kumar, R. K.~S. (2016).
 \newblock {\em 2nd International Conference on Information and Communication
   Technology for Competitive Strategies}, 141.
 
+\bibitem[Serge~Egelman 2013]{Egelman:2013}
+Serge~Egelman, Cormac~Herley, P. C. v.~O., editor (2013).
+\newblock {\em Markets for Zero-Day Exploits: Ethics and Implications}. ACM.
+
+\bibitem[Spitzner 2003]{Spitzner:2003}
+Spitzner, L. (2003).
+\newblock Honeypots: Simple, cost-effective detection.
+
+\bibitem[Tianyue~Luo 2015]{Luo:2015}
+Tianyue~Luo, Chen~Ni, Q. H. M. Y. J. W. Y.~W., editor (2015).
+\newblock {\em POSTER: PatchGen: Towards Automated Patch Detection and
+  Generation for 1-Day Vulnerabilities}. ACM.
+
 \end{thebibliography}

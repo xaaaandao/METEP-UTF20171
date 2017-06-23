@@ -1,46 +1,69 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: root.aux
 The style file: sbc.bst
 Database file #1: root.bib
-You've used 4 entries,
+Warning--entry type for "Spitzner:2003" isn't style-file defined
+--line 65 of file root.bib
+Warning--I didn't find a database entry for "Bilge:2016"
+Warning--I didn't find a database entry for "Elgeman:2013"
+Too many commas in name 1 of "Tianyue Luo, Chen Ni, Qing Han, Mutian Yang, Jingzheng Wu, Yanjun Wu" for entry Luo:2015
+while executing---line 2041 of file sbc.bst
+Too many commas in name 1 of "Tianyue Luo, Chen Ni, Qing Han, Mutian Yang, Jingzheng Wu, Yanjun Wu" for entry Luo:2015
+while executing---line 2041 of file sbc.bst
+Too many commas in name 1 of "Tianyue Luo, Chen Ni, Qing Han, Mutian Yang, Jingzheng Wu, Yanjun Wu" for entry Luo:2015
+while executing---line 2041 of file sbc.bst
+Too many commas in name 1 of "Tianyue Luo, Chen Ni, Qing Han, Mutian Yang, Jingzheng Wu, Yanjun Wu" for entry Luo:2015
+while executing---line 2041 of file sbc.bst
+Too many commas in name 1 of "Tianyue Luo, Chen Ni, Qing Han, Mutian Yang, Jingzheng Wu, Yanjun Wu" for entry Luo:2015
+while executing---line 2041 of file sbc.bst
+Too many commas in name 1 of "Tianyue Luo, Chen Ni, Qing Han, Mutian Yang, Jingzheng Wu, Yanjun Wu" for entry Luo:2015
+while executing---line 2041 of file sbc.bst
+Too many commas in name 1 of "Tianyue Luo, Chen Ni, Qing Han, Mutian Yang, Jingzheng Wu, Yanjun Wu" for entry Luo:2015
+while executing---line 2191 of file sbc.bst
+Too many commas in name 1 of "Tianyue Luo, Chen Ni, Qing Han, Mutian Yang, Jingzheng Wu, Yanjun Wu" for entry Luo:2015
+while executing---line 2191 of file sbc.bst
+Too many commas in name 1 of "Tianyue Luo, Chen Ni, Qing Han, Mutian Yang, Jingzheng Wu, Yanjun Wu" for entry Luo:2015
+while executing---line 2191 of file sbc.bst
+You've used 7 entries,
             1935 wiz_defined-function locations,
-            500 strings with 4381 characters,
-and the built_in function-call counts, 1133 in all, are:
-= -- 110
-> -- 30
-< -- 4
-+ -- 10
-- -- 8
-* -- 74
-:= -- 213
-add.period$ -- 12
-call.type$ -- 4
-change.case$ -- 22
-chr.to.int$ -- 4
-cite$ -- 4
-duplicate$ -- 58
-empty$ -- 87
-format.name$ -- 12
-if$ -- 217
+            523 strings with 4944 characters,
+and the built_in function-call counts, 1933 in all, are:
+= -- 190
+> -- 53
+< -- 7
++ -- 16
+- -- 14
+* -- 127
+:= -- 360
+add.period$ -- 20
+call.type$ -- 7
+change.case$ -- 38
+chr.to.int$ -- 7
+cite$ -- 7
+duplicate$ -- 100
+empty$ -- 148
+format.name$ -- 21
+if$ -- 372
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 2
-newline$ -- 21
-num.names$ -- 14
-pop$ -- 22
+newline$ -- 33
+num.names$ -- 25
+pop$ -- 42
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 42
 quote$ -- 0
-skip$ -- 43
+skip$ -- 70
 stack$ -- 0
-substring$ -- 50
-swap$ -- 4
+substring$ -- 86
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24
+type$ -- 42
 warning$ -- 0
-while$ -- 8
+while$ -- 14
 width$ -- 0
-write$ -- 50
+write$ -- 82
+(There were 9 error messages)
