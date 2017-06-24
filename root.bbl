@@ -11,6 +11,10 @@ Leyla~Bilge, T.~D., editor (2012).
 \newblock {\em Before we knew it: an empirical study of zero-day attacks in the
   real world}. ACM.
 
+\bibitem[MITRE 2017]{MITRE:2017}
+MITRE (2017).
+\newblock About {CVE}.
+
 \bibitem[Paolo~Foti 2015]{Fotiet:2015}
 Paolo~Foti, Jart~Armin, M.~C., editor (2015).
 \newblock {\em 0-Day Vulnerabilities and Cybercrime}. IEEE.
