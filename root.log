@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.7)  28 JUN 2017 13:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.7)  28 JUN 2017 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -642,7 +642,7 @@ m/m/n/12 , e a \OT1/ptm/m/it/12 Com-mon Vul-ne-ra-bi-li-ties and
  []
 
 [4]) (./metodo.tex
-Underfull \hbox (badness 2698) in paragraph at lines 4--5
+Underfull \hbox (badness 2698) in paragraph at lines 6--7
 []\OT1/ptm/m/n/12 A base Com-mon Vul-ne-ra-bi-li-ties Ex-po-su-res (CVE) for-ne
 ce uma lista de
  []
@@ -655,7 +655,7 @@ Here is how much of TeX's memory you used:
  8488 multiletter control sequences out of 15000+600000
  19817 words of font info for 42 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
- 36i,10n,28p,1448b,312s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,10n,28p,1466b,312s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share
 /texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
@@ -663,7 +663,7 @@ pe1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
 /utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on root.pdf (7 pages, 94603 bytes).
+Output written on root.pdf (7 pages, 95282 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
