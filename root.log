@@ -1,9 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.7)  23 JUN 2017 23:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.7)  28 JUN 2017 13:42
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**root
+**root.tex
 (./root.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 6 language(s) loaded.
@@ -499,19 +498,19 @@ Package cleveref Info: always capitalise cross-reference names on input line 74
 ) (./root.aux)
 \openout1 = `root.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 71.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 72.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -584,102 +583,90 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 73.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 74.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 73.
+(Font)              <12> on input line 74.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 73.
+(Font)              <8> on input line 74.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 73.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 73.
+(Font)              <6> on input line 74.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 74.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) (./resumos.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 2.
-)
-(./introducao.tex
+
+Underfull \hbox (badness 5519) in paragraph at lines 3--4
+[]\OT1/ptm/m/it/12 Os cri-mes ci-bern[]eticos s[]ao de-li-tos re-a-li-za-dos po
+r meio de
+ []
+
+) (./introducao.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
- [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 2884) in paragraph at lines 17--25
-[]\OT1/ptm/m/n/12 Uma ma-neira de preven[][]ao []e a implementa[][]ao de sen-so
--res ou de-fe-sas
+Underfull \hbox (badness 1043) in paragraph at lines 6--7
+\OT1/ptm/m/n/12 inex-plo-ra-das, de-pen-dendo da po-pu-la-ri-dade e da fun-ci-o
+-na-li-dade de cada pro-grama
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 26--32
-[]\OT1/ptm/m/n/12 Devido ao fato de que nesse tipo de ata-que []as fa-lhas n[]a
-o s[]ao ex-pos-tas,
+Underfull \hbox (badness 1924) in paragraph at lines 6--7
+\OT1/ptm/m/n/12 e, con-se-quen-te-mente, da aten[][]ao que des-per-tam nos ci-b
+er-cri-mi-no-sos. Se uma
  []
 
-) (./referencialteorico.tex [2]
-Underfull \hbox (badness 1776) in paragraph at lines 8--18
-\OT1/ptm/m/n/12 Al-guns ar-gu-men-tos uti-li-za-dos, s[]ao que for-ne-ce-do-res
- pa-gam US$ 60,000 d[]olares
- []
+[1
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--18
-\OT1/ptm/m/n/12 de re-com-pensa na des-co-berta de no-vas vul-ne-ra-bi-li-da-de
-s em seus pro-du-tos
- []
-
-
-Underfull \hbox (badness 1400) in paragraph at lines 8--18
-\OT1/ptm/m/n/12 (NSA) por US$ 50,000 d[]olares, e com es-ses va-lo-res cres-cen
-te jus-ti-fi-cam sendo
- []
-
-) (./metodo.tex
-Underfull \hbox (badness 2698) in paragraph at lines 19--1
-[]\OT1/ptm/m/n/12 In[]umeras solu[][]oes s[]ao ci-ta-das como: ge-rar pre-vis[]
-oes de des-co-berta de
- []
-
-
-Underfull \hbox (badness 2158) in paragraph at lines 16--24
-[]\OT1/ptm/m/n/12 Com rela[][]ao as informa[][]oes do \OT1/ptm/m/it/12 Na-ti-o-
-nal Vul-ne-ra-bi-lity Da-ta-base \OT1/ptm/m/n/12 (NVD),
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 25--36
-[]\OT1/ptm/m/n/12 Acreditamos que com-bi-nar es-sas informa[][]oes des-ses tr[]
-es con-jun-tos
- []
-
-) (./resultadosesperados.tex) (./trabalhosrelatados.tex
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+(./referencialteorico.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
-[5]) (./root.bbl) [6] (./root.aux) ) 
+ [2]
+[3]) (./trabalhosrelatados.tex
+Underfull \hbox (badness 10000) in paragraph at lines 19--1
+[]\OT1/ptm/m/n/12 Considerando o n[]umero cres-cente das vul-ne-ra-bi-li-da-des
+ nos softwa-res,
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 19--1
+\OT1/ptm/m/it/12 Na-ti-o-nal Ins-ti-tute of Stan-dards and Te-ch-no-logy\OT1/pt
+m/m/n/12 , e a \OT1/ptm/m/it/12 Com-mon Vul-ne-ra-bi-li-ties and
+ []
+
+[4]) (./metodo.tex
+Underfull \hbox (badness 2698) in paragraph at lines 4--5
+[]\OT1/ptm/m/n/12 A base Com-mon Vul-ne-ra-bi-li-ties Ex-po-su-res (CVE) for-ne
+ce uma lista de
+ []
+
+[5]) (./resultadosesperados.tex) (./root.bbl [6]) [7] (./root.aux) ) 
 Here is how much of TeX's memory you used:
- 5272 strings out of 494884
- 85454 string characters out of 6179237
- 174511 words of memory out of 5000000
- 8477 multiletter control sequences out of 15000+600000
+ 5283 strings out of 494884
+ 85588 string characters out of 6179237
+ 176511 words of memory out of 5000000
+ 8488 multiletter control sequences out of 15000+600000
  19817 words of font info for 42 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
- 36i,10n,28p,460b,312s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dv
-ips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
-mes/utmri8a.pfb>
-Output written on root.pdf (6 pages, 93150 bytes).
+ 36i,10n,28p,1448b,312s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share
+/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
+/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on root.pdf (7 pages, 94603 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

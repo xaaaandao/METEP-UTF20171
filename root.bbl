@@ -1,5 +1,22 @@
 \begin{thebibliography}{}
 
+\bibitem[Bertucci 2017]{Bertucci:2017}
+Bertucci, D. (2017).
+\newblock Segurança do data center em 2017.
+
+\bibitem[CERT.br 2012]{CERT:2012}
+CERT.br (2012).
+\newblock Cartilha de segurança para internet.
+
+\bibitem[Evans 2011]{Evans:2011}
+Evans, D. (2011).
+\newblock The internet of things: How the next evolution of the internet is
+  changing everything.
+
+\bibitem[Kaspersky 2012]{Kaspersky:2012}
+Kaspersky, E. (2012).
+\newblock Os perigos dos exploits e dias zero e como preveni-los.
+
 \bibitem[Last 2016]{Last:2016}
 Last, D. (2016).
 \newblock Forecasting zero-day vulnerabilities.
@@ -11,13 +28,29 @@ Leyla~Bilge, T.~D., editor (2012).
 \newblock {\em Before we knew it: an empirical study of zero-day attacks in the
   real world}. ACM.
 
+\bibitem[McAffe 2012]{McAffe:2012}
+McAffe (2012).
+\newblock Relatório da mcafee sobre ameaças: primeiro trimestre de 2012.
+
+\bibitem[McCarthy 2004]{McCarthy:2004}
+McCarthy, L. (2004).
+\newblock Ataques desconhecidos requerem sistemas avançados de aviso.
+
 \bibitem[MITRE 2017]{MITRE:2017}
 MITRE (2017).
 \newblock About {CVE}.
 
+\bibitem[NIST 2017]{NIST:2017}
+NIST (2017).
+\newblock National vulnerability database.
+
 \bibitem[Paolo~Foti 2015]{Fotiet:2015}
 Paolo~Foti, Jart~Armin, M.~C., editor (2015).
 \newblock {\em 0-Day Vulnerabilities and Cybercrime}. IEEE.
+
+\bibitem[Pedrosa 2007]{Pedrosa:2007}
+Pedrosa, F. (2007).
+\newblock IntroduÇÃo aos exploits.
 
 \bibitem[Pratap~Kumar 2016]{Kumar:2016}
 Pratap~Kumar, R. K.~S. (2016).
@@ -25,17 +58,16 @@ Pratap~Kumar, R. K.~S. (2016).
 \newblock {\em 2nd International Conference on Information and Communication
   Technology for Competitive Strategies}, 141.
 
+\bibitem[Santos 2017]{Santos:2017}
+Santos, G. M.~D. (2017).
+\newblock Bases de vulnerabilidades.
+
 \bibitem[Serge~Egelman 2013]{Egelman:2013}
 Serge~Egelman, Cormac~Herley, P. C. v.~O., editor (2013).
 \newblock {\em Markets for Zero-Day Exploits: Ethics and Implications}. ACM.
 
-\bibitem[Spitzner 2003]{Spitzner:2003}
-Spitzner, L. (2003).
-\newblock Honeypots: Simple, cost-effective detection.
-
-\bibitem[Tianyue~Luo 2015]{Luo:2015}
-Tianyue~Luo, Chen~Ni, Q. H. M. Y. J. W. Y.~W., editor (2015).
-\newblock {\em POSTER: PatchGen: Towards Automated Patch Detection and
-  Generation for 1-Day Vulnerabilities}. ACM.
+\bibitem[Symantec ]{Symantec:2017}
+Symantec.
+\newblock Listing of threats \& risks.
 
 \end{thebibliography}

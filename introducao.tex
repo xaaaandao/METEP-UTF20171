@@ -1,40 +1,16 @@
 \section{Introdução}
-O crime cibernético é uma forma de crime que inclui crimes que são cometidos através do uso da Internet ou de outras redes de
-informáticas \cite{Fotiet:2015}. O aumento da disseminação de crimes por computador deve se a \textit{Return On Investement}
-(ROI) derivado desse tipo de atividade criminosa \cite{Fotiet:2015}. Existem vulnerabilidades que podem valer mais de US\$100.000 
-dólares, dependendo da sua complexidade \cite{Bilge:2012}, um exemplo que podemos citar é as vulnerabilidades do tipo \textit{zero-day}, 
-que iremos explicar o que elas são logo abaixo, em que devido a esse retorno de investimento os valores variam, na qual no segundo dia 
-ela pode valer um quarto do que valia no \textit{zero-day} e no décimo dia o valor dela vale 1/1000 \cite{Fotiet:2015}. Além do que, 
-essas vulnerabilidades são muito desejadas por agências governamentais, cibercriminosos e empresas de software \cite{Kumar:2016}.
+O crime cibernético é um delito cometido por meio da Internet ou de uma rede de computadores, que pode ser utilizada: como ferramenta de um crime, quando utilizada para cometê-lo; ou como vítima de um crime, no caso de ser o alvo do delito ~\cite{Fotiet:2015}. 
 
-Um dos tipos de ataque existente é o ataque de \textit{zero-day}, em que acredita-se que o período em que provavelmente ocorreram as 
-primeiras vulnerabilidades de \textit{zero-day} aconteceram nos anos 80 ~\cite{Fotiet:2015}. Esse ataque cibernético explora uma 
-vulnerabilidade que não foi divulgada publicamente, e visam um número de organizações que possuem informações confidenciais 
-que podem ser roubadas ~\cite{Bilge:2012}. Essas vulnerabilidades podem permanecer desconhecidas até por 2.5 anos ~\cite{Bilge:2012}. 
-Enquanto a vulnerabilidade permanece desconhecida, o software obtido não pode ser corrigido e os produtos antivírus não conseguem 
-detectar o ataque através da verificação baseada em assinatura ~\cite{Bilge:2012}. 
+A Internet, por ser muito aberta e incontrolável, pode acarretar problemas desagradáveis aos seus usuários, como as ciberinfecções, do tipo \textit{trojans}, \textit{exploits} e ferramentas maliciosas. De acordo com o \textit{Kaspersksy Security Network}, 10\% das ameaças atuais são \textit{exploits}. É preciso compreender que o \textit{software} é criado por humanos, que podem cometer erros. Além disso, não existe um método “perfeito” de programação. É por isso que um software pode conter vulnerabilidades, isto é, erros no código de programação por onde cibercriminosos podem controlar um sistema, “desarrumá-lo” etc. É justamente o código que explora vulnerabilidades em programas que é denominado de \textit{exploit} ~\cite{Kaspersky:2012}.
 
-Algumas maneiras de prevenção são a implementação de sensores ou defesas cibernéticas, \textit{firewall} ~\cite{Last:2016}. Também pode 
-se precaver utilizando \textit{Host Intrusion Protected Software} (HIPS), em que não se depende de assinaturas, já que há um 
-monitoramente das atividades da máquina, usar um bom antivírus protegendo de ataques conhecidos e desconhecidos e atualizar suas 
-aplicações sempre que houver notificação de atualização de \textit{software} ~\cite{Kumar:2016}. Usuários que utilizam o antivírus podem 
-ter mais cuidados com a segurança de seus computadores, e podem ser menos expostos aos ataques ~\cite{Bilge:2012}. Existem testes de 
-penetração como o \textit{Web Application Penetration Testing} (WAPT)~\cite{Kumar:2016}. Apesar de todas essas maneiras de prevenir é 
-díficil, porque a informação só estará disponível quando o ataque tiver sido concluído ~\cite{Kumar:2016}. Além disso, os fornecedores 
-de \textit{software} dão preferência de corrigir vulnerabilidades que foram divulgadas ou estão prestes a declarar ~\cite{Bilge:2012}.
+As vulnerabilidades podem ser usadas pelos \textit{exploits}, ou podem permanecer inexploradas, dependendo da popularidade e da funcionalidade de cada programa e, consequentemente, da atenção que despertam nos cibercriminosos. Se uma vulnerabilidade, em um determinado programa, não for descoberta, isso não significa que ela não existe, mas sim que o programa é muito pouco utilizado, e por isso dificilmente alguém encontrará uma vulnerabilidade por engano, ou que o programa é tão insignificante que não vale a pena, para os cibercriminosos, procurar erros nele ~\cite{Kaspersky:2012}.
 
-Devido ao fato de que nesse tipo de ataque às falhas não são expostas, queremos prevenir à partir de vulnerabilidades que já foram 
-divulgadas para informar aos fornecedores que possuem ou que irão lançar um possível \textit{software}, e verificar quais possíveis 
-falhas estão ocorrendo ou já ocorreram, para que os mesmos possam prevenir e não sejam vítimas do ataque \textit{zero-day}. Essa 
-prevenção ocorreria por de meio de uma análise de dados, em que iriamos combinar os dados que possuem mais relevância, e em que essas 
-informações são obtidas por meio de sites que divulgam esses detalhes, como o \textit{National Vulnerability Database} (NVD), do 
-\textit{National Institute of Standards and Technology} (NIST), o \textit{Common Vulnerabilities and Exposures} (CVE) e o 
-\textit{Listing of Threats \& Risk}, da Symantec.
+Em um cenário ideal, uma vulnerabilidade é descoberta por um investigador, que a relata ao desenvolvedor do programa. Este, por sua vez, corrige urgentemente a vulnerabilidade por meio de uma atualização. Nesse momento, o submundo cibernético “reune as peças”, cria um \textit{exploit} e tenta atacar os usuários que ainda não instalaram a atualização. Esse cenário ideal, com um intervalo de tempo entre a descoberta da vulnerabilidade e o aparecimento do \textit{exploit}, não é o que acontece frequentemente. Isso porque, o que costuma ocorrer, é que o \textit{exploit} surja simultaneamente com as primeiras notícias sobre a vulnerabilidade, ou, ainda pior, que o \textit{exploit} seja lançado antes de a atualização ficar disponível. Esse \textit{exploit}, para o qual ainda não há uma atualização, é chamado de exploit de dia zero (\textit{zero-day}), porque ele é lançado zero dia depois, ou seja, antes da atualização ~\cite{Kaspersky:2012}.
 
-Como foi dito anteriormente os crimes cibernéticos vem aumentando devido ao retorno financeiro. Acreditamos que o fato de que a cada dia 
-termos uma nova aplicação, faz com que os crimes continuem crescendo, e com a prevenção do ataque \textit{zero-day} e de qualquer outro 
-tipo de ataque pode evitar com que as informações presente neles, sejam expostas as pessoas que não deveriam ter acesso. Além do que, 
-julgamos que precaver pode impedir que os fornecedores de \textit{software} ou usuários tenham prejuízos financeiros, já que nesses dados 
-podem conter informações como senhas de bancos. Aliás, ter essa cautela seria uma forma dos fornecedores se defenderem desses 
-cibercriminosos. Isso porque, sabendo de quais vulnerabilidades os atacantes estão se aproveitando, ou quais falhas a aplicação pode 
-ter, as organizações saberiam o que precisa ser corrigido ou não na sua aplicação, e consequentemente poderiam lançar atualizações para corrigir as vulnerabilidades presentes, coibindo a ação desses cibercriminosos. 
+A vulnerabilidade de dia zero refere-se à lacuna de segurança existente em sites, softwares ou aplicativos, mas que ainda não foi descoberta no momento de seu lançamento. Isso significa que o desenvolvedor tem zero dia para corrigir a vulnerabilidade ~\cite{Kumar:2016}.
+
+Portanto, em um ataque de \textit{exploit} de dia zero é explorada uma vulnerabilidade que ainda não foi divulgada publicamente. É muito difícil se defender de um ataque de dia zero, porque enquanto a vulnerabilidade permanecer desconhecida, o \textit{software} afetado não pode ser corrigido, e os antivírus não podem detectá-lo. Para os cibercriminosos, vulnerabilidades em softwares populares, como o Microsoft Office e o Adobe Flash, são um passe livre para qualquer alvo que eles queiram atacar, como grandes empresas ou milhões de \textit{desktops} ao redor do mundo ~\cite{Bilge:2012}. 
+
+Na década de 2010, portanto, a situação é muito diferente da observada nos anos de 1980, quando provavelmente as primeiras vulnerabilidades de dia zero ocorreram. Naquela época, a sociedade não percebia a importância que a segurança da informação teria em um futuro próximo ~\cite{Fotiet:2015}. Nesse mundo atual, em que a Internet faz, cada vez mais, parte da vida das pessoas e das empresas, é imprescindível identificar vulnerabilidades, como, por exemplo, de dia zero, para aumentar a segurança aos utilizadores de qualquer serviço \textit{Web}. Essa situação, portanto, motivou-nos a realizar este estudo, que tem como objetivo auxiliar usuários a prevenir que as suas aplicações fiquem expostas e, consequentemente, que seus dados sigilosos sejam divulgados para pessoas não autorizadas. Para isso, iremos utilizar os detalhes de falhas já divulgadas em bases de dados sobre vulnerabilidades, e entre essas informações, as mais relevantes serão empregadas, ou combinações das mesmas. Com as associações feitas, desejamos testar a aplicação para verificar a existência de alguma vulnerabilidade, e indicar ao fornecedor do \textit{software} quais ataques podem ser explorados em sua aplicação. Com essa prática de prevenção, os fornecedores de \textit{software} terão mais uma forma de testar suas atuais e novas aplicações, prevenindo-as de possíveis ataques de dia zero.
+
+O trabalho aqui apresentado está organizado da seguinte forma: na seção 2 é apresentado o referencial teórico do estudo, ou seja, definições e questões relacionadas aos ataques de \textit{exploits} de dia zero; na seção 3 são apresentadas pesquisas que analisam diversos aspectos dos ataques de dia zero; na seção 4 é descrito o método do trabalho que se pretende realizar; e na última seção, os resultados esperados do estudo.

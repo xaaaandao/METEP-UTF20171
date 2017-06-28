@@ -1,36 +1,8 @@
 \section{Trabalhos relatados}
+O tema ataque de dia zero tem sido pesquisado, atualmente, sob diferentes perspectivas. \cite{Last:2016} realizou um trabalho de busca de modelos de descoberta de vulnerabilidades que possam fornecer previsões para a descoberta de vulnerabilidades de dia zero. A partir de dados do banco de vulnerabilidade \textit{National Vulnerability Database}, o pesquisador propôs três processos distintos de previsão de vulnerabilidades de dia zero, um baseado em regressão e dois em aprendizagem de máquinas, e os resultados iniciais do estudo foram promissores.
 
-No artigo \textit{Before We Knew It An Empirical Study of Zero-Day Attacks In The Real World} \cite{Bilge:2012}, foi desenvolvido uma 
-técnica para identificar e analisar ataques de \textit{zero-day} a partir dos dados disponíveis do \textit{World Intelligence Network 
-Environment} (WINE), em que identificava arquivos executáveis que estão ligados as exporações de vulnerabilidades conhecidas. Os resultados obtidos foram que 60\% das vulnerabilidades que identificou ainda não eram conhecidas. 
+Considerando a grande quantidade de aplicações \textit{Web} lançadas nos últimos tempos, e o aumento de ataques de dia zero contra vulnerabilidades nesses aplicativos, \cite{Kumar:2016} analisaram técnicas que permitam identificar e eliminar \textit{exploits} em tempo real ou minimizar os danos causados por eles. Na técnica baseada em estatística, qualquer acontecimento fora do normal é bloqueado ou marcado. Na técnica baseada em assinatura, usada em antivírus, a detecção depende da existência de uma assinatura previamente conhecida, e por isso não é eficaz para prevenir ataques de dia zero. A técnica baseada no comportamento objetiva prever o futuro comportamento de um servidor \textit{Web}, para negar quaisquer comportamentos que não sejam esperados. A técnica híbrida combina as técnicas baseadas na estatística e no comportamento, e visa detectar \textit{worms} polimórficos de dia zero.
 
-David Last em seu artigo \textit{Forecasting Zero-Day Vulnerabilities} \cite{Last:2016}, propõe gerar previsões de descoberta de 
-vulnerabilidades nos níveis global e categoria (navegador, sistema operacional e player de vídeo), a partir de quatro conjuntos de dados 
-sendo elas GlobalVuns, BrowserVulns, OSVulns e VideoVulns. O mesmo define três modelos de suítes, em que a primeira 
-seria a combinação de três modelos de previsão que seria o \textit{Composite Regression}, modelo de regressão linear e modelo de 
-regressão combinada. O segundo modelo de suíte seria a aprendizagem de máquinas sobre vulnerabilidades cumulativas, em que utilizou-se o 
-Weka para analisar dados entre janeiro de 2000 até o início do período de previsão. Por fim, o último foi a aprendizagem de máquinas em 
-vulnerabilidades mensais, em que é similiar a anterior, exceto que treina e prevê dados mensais de vulnerabilidades de software em vez de 
-dados cumulativos. Os resultados no \textit{Composite Regression}, apresentaram desmepenhos melhores, e conjuntos de vulnerabilidades 
-acumuláveis e mensais há um sobreposição de dados/sem sobreposição de dados. Já com as duas últimas suítes Last obteu melhores resultados 
-para do OSVulns em modelos cumulativos de Aprendizagem de Máquinas, e BrowserVulns e VideoVulns, os melhores resultados foram obtidos nos 
-modelos mensais Aprendizagem de Máquina.
+\cite{Bilge:2012} propuseram uma técnica para identificar, automaticamente, ataques de dia zero, a partir de dados disponíveis no \textit{World Intelligence Network Environment}. Eles registraram quantos binários benignos e maliciosos foram baixados em 11 milhões de hosts reais em todo o mundo, e identificaram 18 vulnerabilidades exploradas antes da divulgação, sendo que 11 tinham sido empregadas em ataques de dia zero.
 
-No artigo \cite{Kumar:2016}, utilizou-se técnicas baseadas em estatísticas, assinaturas, comporamento e híbrida. O objetivo delas seriam 
-identificar as façanhas em tempo real e tentar eliminar em tempo real, separação de ataque específico ou minimizar os danos provocados 
-pelo ataque. Na técnica baseada em estática qualquer coisa que está acontecendo de fora do normal é bloqueada ou marcada. A segunda 
-técnica é a baseada em assinaturas, porém requer uma assinatura para estar na biblioteca de assinaturas para a detecção. Dentro dessa 
-técnica, temos outras três subtécnicas que seriam assinatura baseado em conteúdo, que compara o conteúdo dos pacotes com assinaturas
-mal-intencionadas conhecidas, assinatura baseada na semântica são caras para gerar e não podem ser implementadas, e não podem ser 
-implementadas em sistema de detecção de intrusão e a última subtécnica é assinatura baseada em vulnerabilidades, em que testamos o ponto 
-de vulnerabilidades, indicando uma mensagem de entrada fará com que a execução do programa atinja o ponto de vulnerabilidade. A penúltima 
-técnica é prever o comportamento futuro de um servidor web, máquina vítima, a fim de negar quaisquer comporamentos que não são esperados. 
-Por fim, a última técnica seria a combinação das anteriores derrubando a fraqueza em qualquer filtro de tráfego suspeito.
-
-Em \textit{0-Day Vulnerabilities and Cybercrime} \cite{Fotiet:2015}, é realizado várias entrevistas que mostram sua ideias, relatam sobre 
-os mercados de vulnerabilidades existentes, fábricas de \textit{malwares}, cibercrime e o cibercrime em cenário militares. No penúltimo 
-artigo \cite{Egelman:2013} assim como no anterior relatou mais sobre os mercados de \textit{zero-day}. Enfim, o último \cite{Luo:2015} é 
-apresentado uma ferramenta, em que detecta segmentos de código que são os mesmo com patches no banco de dados, identifica \textit{patches}
-que devem ser corrigidos e ajustá-los. Com essa aplicação gerou-se rapidamente um \textit{patch} de código vulnerável de um dia, e um 
-exemplo citado é que foi gerado 1187 pachtes que provavelmente haviam vulnerabilidades reais, analisando mais de 2 bilhões de linhas de 
-código.
+\cite{Fotiet:2015} analisaram as vulnerabilidades de dia zero no contexto mais amplo do cibercrime e dos mercados econômicos. A partir de entrevistas de especialistas, descreveram diferentes mercados de vulnerabilidades de zero dia, ou seja, mercados brancos, negros e cinzas (governamentais), e discutiram características das fábricas de malware e seus principais clientes. Outro trabalho que discutiu a questão do comércio dos \textit{exploits} de dia zero foi realizado por \cite{Egelman:2013}. Estes pesquisadores alertaram para a necessidade de se discutir questões éticas relacionadas aos mercados relacionados aos ataques de dia zero, visto que mercados que facilitam a venda de detalhes de vulnerabilidades estão ganhando popularidade no mundo comercial.

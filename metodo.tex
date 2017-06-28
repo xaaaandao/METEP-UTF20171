@@ -1,42 +1,10 @@
 \section{Método}
-A prevenção de ataques do tipo \textit{zero-day}, irá ocorrer pela análise da combinação de dados 
-de vulnerabilidades que já foram divulgadas. Iremos utilizar três sites que divulgam essas 
-informações, que são: o \textit{National Vulnerability Database} (NVD), \textit{National Institute 
-of Standards and Technology} (NIST), \textit{Common Vulnerabilities and Exposures} (CVE) e
-\textit{Listing of Threats \& Risk}, da Symantec.
+Para a prevenção de ataques dia zero será realizada a análise da combinação de dados de vulnerabilidades já divulgadas, em três bases: o National Vulnerability Database – NVD \cite{NIST:2017}, a Common Vulnerabilities and Exposures – CVE \cite{MITRE:2017} e a A-Z Listing of Threats \& Risks \cite{Symantec:2017}.
 
-Analisando essas três fontes de informações percebemos algumas pecularidades das informações 
-obtidas. A \textit{List of Threats \& Risk} é a que possui mais detalhes que as demais em que 
-temos o tipo vulnerabilidade, podendo ela ser um \textit{worm}, vírus, \textit{spyware}, macro, 
-\textit{trojan} ou \textit{trojan horse}, etc. Além do que, nessa mesma lista conseguesse 
-visualizar o sistema que é afetado, a data de descoberta, o que essa vulnerabilidade realiza com
-muitos detalhes, se arquivos são criados devido a essa falha, o risco de impacto e alguns casos como 
-que se reproduz essa vulnerabilidade. 
+A análise dessas três bases de dados sobre vulnerabilidades evidencia algumas peculiaridades das informações fornecidas. A \textit{A-Z Listing of Threats \& Risk} apresenta mais detalhes que as demais, sobre os tipos de vulnerabilidades: \textit{worm}, vírus, \textit{spyware}, macro, \textit{trojan} ou \textit{trojan horse} etc. Além disso, é possível: visualizar o sistema afetado; a data de descoberta; o que essa vulnerabilidade realiza, com muitos detalhes; se arquivos são criados por causa dessa falha; o risco de impacto; e algumas descrições de como determinadas vulnerabilidades podem ser reproduzidas.
 
-Com relação as informações do \textit{National Vulnerability Database} (NVD), são identificados por meio de
-\textit{Common Vulnerabilities Exposures} (CVE) que é um dicionário de nomes comuns para vulnerabilidades de segurança 
-cibernética conhecidas publicamente \cite{MITRE:2017}. As informações contidas tem informações relevantes e algumas que 
-são similares da bases de dados anterior, os campos são complexidade de acesso, autenticação, tipo do impacto e também 
-conseguimos também visualizar por fornecedores de \textit{software} quais falhas que ocorreram em suas aplicações. 
-Porém, não existem todos os identificadores e os fornecdores no \textit{National Vulnerability Database}, somente alguns estão presente.
-Devido a esse fato fomos atrás dos demais identificadores, que está presente no site \textit{Common Vulnerabilities Exposures}, 
-entretanto um problema que achamos é que cada identificador possuem uma breve descrição e algumas referências, sendo que algumas delas 
-possuem links que mostram os erros causados.
+A base Common Vulnerabilities Exposures (CVE) fornece uma lista de vulnerabilidades mais completa que a National Vulnerability Database (NVD). Os registros da NVD contêm informações sobre: a gravidade e facilidade de exploração de vulnerabilidades divulgadas; a complexidade de acesso, se há ou não necessidade de autenticação, os tipos de impacto e as vulnerabilidades presentes em softwares, por fornecedores. A base CVE fornece uma breve descrição da vulnerabilidade e algumas referências de como reproduzi-las, ou os arquivos que são criados a partir da vulnerabilidade. Como na base CVE são fornecidas poucas informações sobre algumas vulnerabilidades, é preciso fazer uma pesquisa a partir de seu identificador, para coleta de mais dados. Em alguns casos, a CVE não fornece descrições da vulnerabilidade, visto que o fornecedor ainda não as forneceu, e por isso é importante que os dados dessa base sejam sempre atualizados.
 
-Acreditamos que combinar essas informações desses três conjuntos complementam uns aos outros, e julgamos que 
-o resultado disso pode ser uma maneira muito útil para prevenir ataques cibernéticos como o ataque 
-\textit{zero-day}. Por exemplo, reproduzindo esses ataques contidos nas informações extraídas 
-podemos verificar se as aplicações tratam das vulnerabilidades, saber quais sistemas ou fornecedores 
-de \textit{software} possuem mais falhas do que outros, assim fazendo com o usuário opte por uma outra alternativa que 
-não possua tantas vulnerabilidades, já que se escolher ele será mais um alvo para os criminosos. Além disso, podemos complementar a 
-reprodução de um ataque veirificando se alguma arquivo foi criado, depois de realizado o ataque, já que podemos ter arquivos que 
-executem determinadas ações dentro de uma aplicação. Enfim, também podemos averiguar se os ataques de \textit{zero-day} que já foram 
-divulgados e que causaram algumas prejuízos em algumas aplicações, causam danos no \textit{software}, e caso seja positivo o fornecedor 
-poder lançar atualizações para tentar solucionar a vulnerabilidade.
+As informações dessas três bases são complementares, e a combinação das mesmas pode ser útil para a prevenção de ataques cibernéticos, como os de dia zero. Por exemplo, reproduzindo os ataques descritos nas bases, podemos verificar quais aplicações apresentam essas falhas, quais fornecedores têm softwares mais vulneráveis. Isso permitirá que o usuário opte por um sistema que não possua tantas vulnerabilidades. 
 
-Como dito anteriormente que no \textit{National Vulnerability Database} (NVD), temos uma quantidade menor de 
-vulnerabilidades com relação ao \textit{Common Vulnerabilities Exposures} (CVE), podemos utilizar os 
-identificadores para pesquisar mais detalhes das vulnerabilidades, de como reproduzir, quais são os prejuízos 
-causados, etc. Assim como ter as aplicações no nosso sistema atualizado na versão mais recente, garante uma certo nível de proteção ter 
-esses dados sempre mais atualizados fará com que as aplicações fiquem menos vulneráveis, já que existem inúmeros identficadores que 
-irão receber novas vulnerabilidades que irão ser divulgadas.
+Após a realização de um ataque, pode-se verificar se algum arquivo foi criado, que realize sequestro de dados. Também é possível averiguar se ataques de dia zero, já divulgados e que causaram prejuízos em algumas aplicações, causam danos no software testado. Caso o resultado seja positivo, será possível avisar o fornecedor da vulnerabilidade, para que atualizações sejam feitas.
